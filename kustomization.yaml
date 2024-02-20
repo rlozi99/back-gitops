@@ -6,12 +6,6 @@ resources:
 - service.yaml
 
 images:
-- name: goodbirdacr.azurecr.io/medical/back
-  newName: goodbirdacr.azurecr.io/medical/back
-  newTag: v1.0.Beta20
-- name: goodbirdacr.azurecr.io/medicine/back
-  newName: goodbirdacr.azurecr.io/medicine/back
-  newTag: v1.0.Beta6
 - name: goodbirdacr.azurecr.io/medicine/front
   newName: goodbirdacr.azurecr.io/medicine/front
   newTag: latest
